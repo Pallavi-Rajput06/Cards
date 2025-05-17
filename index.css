@@ -1,0 +1,54 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	box-sizing: border-box;
+}
+html,body{
+	height: 100%;
+	width: 100%;
+}
+#parent{
+	height: 100%;
+	width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+	background-size: cover;
+	background-position: 0% 60%;
+	display: flex;
+	justify-content: space-evenly;
+    align-items:center;
+}
+h1{
+	position: absolute;
+	left: 50%;
+	top: 30px;
+	transform: translate(-50%,0%);
+	font-size: 38px;
+	color: aliceblue;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#child1{
+	 height: 400px;
+	 width: 300px;
+	 background-image: url(https://i.pinimg.com/736x/db/9d/fd/db9dfd2b06e68368da0634a252c08ad2.jpg);
+	 border-radius: 20px;
+	 background-size: cover;
+	 border: 3px solid goldenrod;
+
+}
+#child2{
+	height: 400px;
+	width: 300px;
+	background-image: url(https://i1.sndcdn.com/artworks-000140565162-86mpdy-t500x500.jpg);
+	border-radius: 20px;
+	background-size:cover;
+	border: 3px solid goldenrod;
+
+}
+#child3{
+	height: 400px;
+	width: 300px;
+	background-image: url(https://cdn.magzter.com/1357280291/1713186965/articles/v_1-ptmk81713245896490/VISHAL-MISHRA-ON-PEHLE-BHI-MAIN-NEW-MUSIC-AND-WORKING-WITH-ATIF-ASLAM.jpg);
+	border-radius: 20px;
+	background-size: cover;
+	border: 3px solid goldenrod;
+}
